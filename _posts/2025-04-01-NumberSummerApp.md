@@ -5,10 +5,10 @@ Tarkoituksena oli tehdä nopea harjoitus hyödyntäen C#:llä tehtävää konsol
 ![image](https://github.com/user-attachments/assets/a5174ad2-53b6-4ac5-b6a5-73de8940b345)
 
 xUnitilla voidaan kirjoittaa yksilötestejä ja tässä tapauksessa testasimme seuraavat asiat:
-- Testataan, että lista 1, 2, 3, 4, 5 palauttaa tuloksen 15.
-- Testataan, että sama toimii negatiivisillä luvuilla.
-- Testataan, että tyhjä lista palauttaa nollan (0).
-- Testataan, että nolla palauttaa `ArgumentNullException`-poikkeuksen.
+- Testataan, että lista 1, 2, 3, 4, 5 palauttaa tuloksen 15
+- Testataan, että sama toimii negatiivisillä luvuilla
+- Testataan, että tyhjä lista palauttaa nollan (0)
+- Testataan, että nolla palauttaa `ArgumentNullException`-poikkeuksen
 
 Erityishuomiota tarvitsee kiinnittää siihen, että testien funktiot nimetään riittävän kuvailevasti, jotta tulosten kartoittaminen on helpompaa. xUnit tukee kahta erilaista yksikkötestiä: **Fact** ja **Theory**.
 
